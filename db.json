@@ -57,7 +57,6 @@
       "status": "inactive",
       "id": 7
     },
-
     {
       "name": "Đại",
       "email": "dai@zerot.com",
@@ -78,7 +77,6 @@
       "status": "inactive",
       "id": 124
     },
-
   ],
   "product": [
     {
@@ -89,20 +87,6 @@
       "stock": 10,
       "reviews": [],
       "id": 1
-    }
-  ],
-  "order": [
-    {
-      "totalPrice": 11500,
-      "orderItems": {
-        "product": 1,
-        "name": "product 1",
-        "price": 11500,
-        "image": "sample img",
-        "quantity": 1
-      },
-      "status": "Processing",
-      "userid": 3
     }
   ]
 }
