@@ -65,7 +65,7 @@
       "address": "",
       "status": "inactive",
       "role": "Admin",
-      "id": 123,
+      "id": 8,
       "code": ""
     },
     {
@@ -75,18 +75,7 @@
       "phone": "0907777888",
       "role": "customer",
       "status": "inactive",
-      "id": 124
-    },
-  ],
-  "product": [
-    {
-      "name": "product 1",
-      "price": 11500,
-      "description": "this is a desc product",
-      "category": "Laptop",
-      "stock": 10,
-      "reviews": [],
-      "id": 1
+      "id": 9
     }
   ]
 }
