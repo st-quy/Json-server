@@ -1,84 +1,108 @@
 {
-  "posts": [
-    {
-      "id": 1,
-      "title": "1st post",
-      "datetime": "July 16, 2021 11:47:39 AM",
-      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-    },
-    {
-      "id": 2,
-      "title": "Second post",
-      "datetime": "July 16, 2021 11:47:48 AM",
-      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. two"
-    },
-    {
-      "id": 3,
-      "title": "Number Three",
-      "datetime": "July 16, 2021 11:48:01 AM",
-      "body": "Third post... Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-    },
-    {
-      "id": 6,
-      "title": "How to become rich",
-      "datetime": "April 16, 2022 2:56:06 AM",
-      "body": "Stop dreaming - this is the truth you have to believe"
-    },
-    {
-      "id": 8,
-      "title": "how to get visa to Afghanistan",
-      "datetime": "April 16, 2022 2:58:59 AM",
-      "body": "lorem ipsum dolor sit amet"
-    },
-    {
-      "id": 9,
-      "title": "Hello!",
-      "datetime": "April 16, 2022 3:00:38 AM",
-      "body": "Hello World!"
-    }
-  ],
   "user": [
     {
-      "name": "VIOT HCM",
-      "email": "admin@ttlx.com",
+      "name": "Admin",
+      "email": "admin@gmail.com",
+      "password": "123123",
       "phone": "0906564482",
+      "address": " Da Nang",
+      "status": "active",
+      "role": "admin",
+      "id": 1
+    },
+    {
+      "name": "Van Tu",
+      "email": "tu.nguyen-ojt07@devplus.edu.vn",
+      "password": "123123",
+      "phone": "0375835707",
+      "address": "Da Nang",
+      "status": "active",
+      "role": "admin",
+      "id": 3
+    },
+    {
+      "name": "Delivery Man",
+      "email": "deliveryman@zerot.com",
+      "password": "123123",
+      "phone": "0904444551",
+      "address": "",
       "status": "Active",
-      "role": "Admin",
+      "role": "delivery",
+      "id": 4
+    },
+    {
+      "name": "Van Quy",
+      "email": "vanquy@gmail.com",
+      "password": "123123",
+      "phone": "0906564492",
+      "role": "customer",
+      "status": "inactive",
+      "id": 5
+    },
+    {
+      "name": "Van quy 2",
+      "email": "phamvanquy@gmail.com",
+      "password": "123123",
+      "phone": "0907678678",
+      "role": "customer",
+      "status": "inactive",
       "id": 6
     },
     {
-      "name": "test1 21233",
+      "name": "Quy",
       "email": "quy.pham@stunited.vn",
-      "phone": "0906564482",
-      "status": "Active",
-      "role": "Admin",
+      "password": "123123",
+      "phone": "0907895594",
+      "role": "seller",
+      "status": "inactive",
       "id": 7
     },
+
     {
-      "name": "Phạm Văn Quý",
-      "email": "quy.pham@stunited.vn",
-      "phone": "0904444555",
-      "status": "Active",
+      "name": "Đại",
+      "email": "dai@zerot.com",
+      "password": "123123",
+      "phone": "0906561482",
+      "address": "",
+      "status": "inactive",
       "role": "Admin",
-      "id": 8
-    }
-  ],
-  "products": [
-    {
-      "id": 1,
-      "name": "Car",
-      "description": "A milion cars",
-      "stock": 1000,
-      "sold": 900,
-      "status": "Active"
+      "id": 123,
+      "code": ""
     },
     {
-      "id": 2,
-      "name": "Car 2",
-      "description": "A milion cars",
-      "stock": 1000,
-      "sold": 900,
-      "status": "Active"
+      "name": "van quy",
+      "email": "hhh@gmail.com",
+      "password": "123123",
+      "phone": "0907777888",
+      "role": "customer",
+      "status": "inactive",
+      "id": 124
+    },
+
+  ],
+  "product": [
+    {
+      "name": "product 1",
+      "price": 11500,
+      "description": "this is a desc product",
+      "category": "Laptop",
+      "stock": 10,
+      "reviews": [],
+      "id": 1
+    }
+  ],
+  "order": [
+    {
+      "totalPrice": 11500,
+      "orderItems": {
+        "product": 1,
+        "name": "product 1",
+        "price": 11500,
+        "image": "sample img",
+        "quantity": 1
+      },
+      "status": "Processing",
+      "userid": 3
     }
   ]
 }
