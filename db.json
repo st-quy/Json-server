@@ -8,6 +8,7 @@
       "address": " Da Nang",
       "status": "active",
       "role": "admin",
+      "deletedAt": true,
       "id": 1
     },
     {
@@ -18,44 +19,8 @@
       "address": "Da Nang",
       "status": "active",
       "role": "admin",
-      "id": 3
-    },
-    {
-      "name": "Delivery Man",
-      "email": "deliveryman@zerot.com",
-      "password": "123123",
-      "phone": "0904444551",
-      "address": "",
-      "status": "Active",
-      "role": "delivery",
-      "id": 4
-    },
-    {
-      "name": "Van Quy",
-      "email": "vanquy@gmail.com",
-      "password": "123123",
-      "phone": "0906564492",
-      "role": "customer",
-      "status": "inactive",
-      "id": 5
-    },
-    {
-      "name": "Van quy 2",
-      "email": "phamvanquy@gmail.com",
-      "password": "123123",
-      "phone": "0907678678",
-      "role": "customer",
-      "status": "inactive",
-      "id": 6
-    },
-    {
-      "name": "Quy",
-      "email": "quy.pham@stunited.vn",
-      "password": "123123",
-      "phone": "0907895594",
-      "role": "seller",
-      "status": "inactive",
-      "id": 7
+      "deletedAt": true,
+      "id": 2
     },
     {
       "name": "Đại",
@@ -63,26 +28,90 @@
       "password": "123123",
       "phone": "0906561482",
       "address": "",
-      "status": "inactive",
-      "role": "Admin",
-      "id": 8,
+      "status": "active",
+      "role": "admin",
+      "deletedAt": false,
+      "id": 3,
       "code": ""
+    }
+  ],
+  "product": [
+    {
+      "name": "product 1",
+      "price": 11500,
+      "description": "this is a desc product",
+      "category": "Laptop",
+      "stock": 10,
+      "image": "../assets/img/curved-images/macbook.jpg",
+      "id": 1,
+      "review": "good1"
     },
     {
-      "name": "van quy",
-      "email": "hhh@gmail.com",
-      "password": "123123",
-      "phone": "0907777888",
-      "role": "customer",
-      "status": "inactive",
-      "id": 9
+      "name": "product 2",
+      "price": 666,
+      "description": "this is a desc product",
+      "category": "Macbook",
+      "stock": 10,
+      "image": "no image",
+      "id": 2,
+      "review": "good"
+    },
+    {
+      "name": "product 3",
+      "price": 21500,
+      "description": "this is a desc product",
+      "category": "Laptop",
+      "stock": 10,
+      "image": "no image",
+      "review": "good3",
+      "id": 3
     }
   ],
   "order": [
+    {
+      "totalPrice": 11500,
+      "orderItems": [
         {
-      "amount": 1000,
-      "status": "pending",
+          "product": 1,
+          "name": "product 1",
+          "price": 11500,
+          "image": "sample img",
+          "quantity": 1
+        }
+      ],
+      "status": "Delivering",
+      "userid": 3,
       "id": 1
+    },
+    {
+      "totalPrice": 21500,
+      "orderItems": [
+        {
+          "product": 2,
+          "name": "product 2",
+          "price": 21500,
+          "image": "sample img",
+          "quantity": 1
+        }
+      ],
+      "status": "Processing",
+      "userid": 1,
+      "id": 2
+    },
+    {
+      "totalPrice": 21500,
+      "orderItems": [
+        {
+          "product": 2,
+          "name": "product 2",
+          "price": 21500,
+          "image": "sample img",
+          "quantity": 1
+        }
+      ],
+      "status": "Processing",
+      "userid": 2,
+      "id": 3
     }
   ]
 }
